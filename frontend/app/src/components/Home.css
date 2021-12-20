@@ -1,0 +1,5 @@
+.body-bg {
+    height: 100vh;
+    padding: 0;
+    background: linear-gradient(to right, rgb(32, 201, 54) 0%, #68E89A 50%, #998CEB 50%, #FBF46D 100%);
+}

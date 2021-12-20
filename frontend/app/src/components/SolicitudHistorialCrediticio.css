@@ -1,0 +1,104 @@
+.content{
+    display: flex;
+    align-items: center;
+    padding-left:5rem;
+}
+
+.column{
+    flex: 50%;
+}
+
+.credit-form button{
+    color: #eee;
+    background: linear-gradient(260.54deg, #68E89A 0%, #39D074 62.86%);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-top: 2rem;
+    width: 80% !important;
+    height: 6vh;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    
+}
+
+.credit-form button:hover{
+    background: #D9B6FF;
+    color: black;
+    cursor: pointer;
+    animation-name: bounce;
+    -moz-animation-name: bounce;
+}
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-10px);
+		-ms-transform:     translateY(-10px);
+		transform:         translateY(-10px)
+	}
+	60% {
+		-webkit-transform: translateY(-10px);
+		-ms-transform:     translateY(-10px);
+		transform:         translateY(-10px)
+	}
+
+}
+.credit-form h1{
+    font-family: Poppins;
+    font-size:3rem !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+    margin-bottom: 5rem;
+}
+
+.credit-form input{
+    background: #FFFFFF;
+    border: 1px solid #D4DFEF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 2rem;
+    width:100% !important;
+    height:7vh;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.credit-form select{
+    background: #FFFFFF;
+    border: 1px solid #D4DFEF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 2rem;
+    width:100% !important;
+    height:7vh;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.credit-img{
+    width:90%;
+    padding-left:20%;
+    
+}
+
+.row{
+    display: flex;
+}
+
+.submit-btn{
+padding-left: 20%;  
+}

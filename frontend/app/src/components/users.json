@@ -1,0 +1,30 @@
+[
+    {
+      "Codigo": 1,
+      "Nombre": "Victor Arenas",
+      "Tipo": "Administrador",
+      "Id": "1140871992",
+      "Correo": "varenas@gmail.com"
+    },
+    {
+      "Codigo": 2,
+      "Nombre": "Dilan Solar",
+      "Tipo": "Usuario",
+      "Id": "1143121556",
+      "Correo": "dsolar@gmail.com"
+    },
+    {
+      "Codigo": 3,
+      "Nombre": "Virgilio Salgado",
+      "Tipo": "Usuario",
+      "Id": "1143121587",
+      "Correo": "vsalgado@gmail.com"
+    },
+    {
+      "Codigo": 4,
+      "Nombre": "Carolina Ortiz",
+      "Tipo": "Usuario",
+      "Id": "1143125685",
+      "Correo": "cortiz@gmail.com"
+    }
+  ]

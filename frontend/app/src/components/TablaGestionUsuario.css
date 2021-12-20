@@ -1,0 +1,34 @@
+.main{
+    width: 50vh;
+}
+
+.top-form{
+    display: flex;
+}
+
+.btn-form{
+    color: #eee;
+    background: linear-gradient(260.54deg, #68E89A 0%, #39D074 62.86%);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 15vh !important;
+    height: 6vh;
+}
+
+h4{
+    padding-top: 2rem;
+    font-family: Poppins;
+    font-size:3rem !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+    margin-bottom: 5rem;
+    width: 55vh;
+}
+
+form{
+    padding-bottom: 2rem;
+}
