@@ -1,12 +1,12 @@
 const {Schema, model} = require('mongoose');
 
 const noteSchema = new Schema({
-    title: String,
-    content: {
-        type: String,
+    extUserName: String,
+    totalCreditAmount:{
+        type: 'number',
         required: true
     },
-    author: String,
+    leftCreditAmount: 'number',
     date: {
         type: Date,
         default: Date.now

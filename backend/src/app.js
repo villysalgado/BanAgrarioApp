@@ -13,6 +13,6 @@ app.use(express.json());
 
 /* ROUTES */
 app.use('/api/users', require('./routes/users'));
-app.use('/api/notes', require('./routes/notes') );
+app.use('/api/credits', require('./routes/credits') );
 
 module.exports = app;
