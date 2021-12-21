@@ -5,8 +5,15 @@ const userSchema = new Schema({
         type: String,
         required: true,
         trim: true,
+    },
+    password: String,
+    identificacion: {
+        type: 'number',
+        required: true,
         unique: true
-    }
+    },
+    valIngresos: 'number', 
+    valEgresos: 'number'
 },{
     timestamps: true
 });
