@@ -16,14 +16,6 @@ function Register() {
             />
         </div>
 
-        <div className="form-group">
-            <input className="form-control"
-            type="text"
-            required="required"
-            name="tipoDoc"
-            placeholder="Tipo Documento"
-            />
-        </div>
 
         <div className="form-group">
             <input className="form-control"
@@ -34,23 +26,6 @@ function Register() {
             />
         </div>
 
-        <div className="form-group">
-            <input className="form-control"
-            type="text"
-            required="required"
-            name="fechaNac"
-            placeholder="Fecha de Nacimiento"
-            />
-        </div>
-
-        <div className="form-group">
-            <input className="form-control"
-            type="text"
-            required="required"
-            name="name"
-            placeholder="Nombre"
-            />
-        </div>
 
         <div className="form-group">
             <input className="form-control"
