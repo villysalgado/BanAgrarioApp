@@ -3,3 +3,17 @@
     padding: 0;
     background: linear-gradient(to right, rgb(32, 201, 54) 0%, #68E89A 50%, #998CEB 50%, #FBF46D 100%);
 }
+
+.div-bg1 {
+    background: linear-gradient(to right, rgb(32, 201, 54) 0%, #68E89A 100%);
+    height: 100vh;
+}
+
+.div-bg2 {
+    background: linear-gradient(to right, #998CEB 0%, #FBF46D 100%);
+    height: 100vh;
+}
+
+.text-cl {
+    color: #998CEB;
+}
