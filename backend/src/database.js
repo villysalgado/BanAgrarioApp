@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
-const URI = 'mongodb://localhost/mernstack';
+
+const URI = 'mongodb+srv://d2st:Dilanbass@cluster0.fbr7t.mongodb.net/mernstack?retryWrites=true&w=majority';
 
 mongoose.connect(URI, {
     useNewUrlParser: true,

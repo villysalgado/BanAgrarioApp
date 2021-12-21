@@ -1,7 +1,7 @@
 const userCtrl = {};
 const {encrypt , compare } = require('./handlebcrypt');
 
-const User = require('../models/user');
+const User = require('../models/User');
 
 userCtrl.getUsers = async(req, res) => {
     const users = await User.find();
